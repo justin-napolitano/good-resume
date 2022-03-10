@@ -1,0 +1,48 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% File:         resume.tex
+% Editor:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+% Last Updated: Jan 7th, 2022
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Justin Napolitano} % Name Here
+\def\phone{(832)299-0372}
+\def\city{Houston, Texas}
+\def\email{justin@jnapolitano.io}
+\def\LinkedIn{justin-napolitano} % linkedin.com/in/______
+\def\github{justin-napolitano} % github username
+\def\role{Data Analyst / Data Architect/ Developer} % JOB TITLE
+
+\input{_header}
+\begin{document}
+\input{sections/objective}
+
+\section{Experience}
+\input{sections/experience}
+
+
+% make a newpage wherever it is a clean break
+% \newpage
+
+\section{Skills}
+\input{sections/skills}
+
+\section{Projects}
+\input{sections/projects}
+
+\section{Education}
+\input{sections/education}
+
+
+\end{document}
