@@ -140,7 +140,7 @@ class deploy_pipeline:
 
 
         #subprocess.check_call([sys.executable, '-m', 'pip', 'install', 'my_package'])
-        result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c', cname, 'build/html' ], capture_output=True, text=True)
+        result = subprocess.run(['ghp-import', '-n', '-p', '-f', '-c', cname, 'deploy' ], capture_output=True, text=True)
         ##print("Output")
 
         print(result.stdout)
@@ -202,7 +202,7 @@ def main():
     introduction()
     #install_dependencies()
     #dependency_log = dependency_pipeline()
-    build_log = build_pipeline()
+    #build_log = build_pipeline()
     deploy_log = deploy_pipeline(conf.cname)
 
 

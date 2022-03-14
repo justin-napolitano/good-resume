@@ -18,8 +18,8 @@
 
 % COLOR
 \RequirePackage{xcolor}
-\definecolor{highlight}{RGB}{61, 90, 128} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
-
+\definecolor{highlight}{RGB}{0, 0, 0} % CHANGE THIS TO YOUR FAV COLOR https://g.co/kgs/aoqdi7
+\definecolor{titles}{RGB}{110,5,5}
 % LINKS
 \RequirePackage{hyperref}
 \hypersetup{colorlinks=true,urlcolor=highlight}
@@ -31,7 +31,7 @@
 % SECTION FORMATTING 
 \RequirePackage[nostruts]{titlesec}
 \titlespacing*{\section}{0em}{0.5em}{0em}
-\titleformat{\section}{\color{highlight} \scshape \raggedright \large}{}{0em}{}[\vspace{-0.75em}\hrulefill]
+\titleformat{\section}{\color{titles} \scshape \raggedright \large}{}{0em}{}[\vspace{-0.75em}\hrulefill]
 % SUBSECTION FORMATTING
 \titlespacing*{\subsection}{0em}{0em}{0em}
 \titleformat{\subsection}{\bfseries}{}{0em}{}[]
@@ -49,10 +49,11 @@
 % Skill Item
 
 % tighter spacing than itemize
-\setlist[description]{labelindent=0em ,labelwidth=0cm, labelsep*=1em, leftmargin =! , itemindent = 0pt, style = sameline}
+\setlist[itemize]{align=parleft,left=0pt..1em}
 \newenvironment{jitemize}{
-\begin{description} \itemsep 5pt}
-{\end{description}\vspace{-.5em}}
+\begin{itemize} \itemsep 1pt \parskip 0pt \parsep 1pt}
+{\end{itemize}\vspace{-.5em}}
+
 
 
 % SUBTEXT
