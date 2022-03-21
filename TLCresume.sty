@@ -74,3 +74,21 @@
 % FOR TEMPLATE FILLER
 \RequirePackage[english]{babel}
 \RequirePackage{blindtext}% Filler Text
+
+
+%Publication Settings
+
+
+\newcommand*{\ADS}[1]{\textcolor{highlight}{\href{#1}{ADS}}}
+\newcommand*{\arXiv}[1]{\textcolor{highlight}{\href{#1}{arXiv}}}
+\newcommand*{\doi}[1]{\textcolor{highlight}{\href{#1}{DOI}}}
+\newcommand{\justinpublication}[5]{
+    \subsection{{#1}}
+    \vspace{0.1em}
+    \subtext{#4 \hfill #3}
+    \vspace{.9em}
+    \subtext{#2 \hfill #5}
+    \vspace{1.25em}
+    %\subtext{#5}
+}
+%    \subtext{#5}
