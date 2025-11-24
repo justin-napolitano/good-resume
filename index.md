@@ -20,6 +20,13 @@ seoSecondaryKeywords:
   - modular design
   - resume deployment
 seoOptimized: true
+topicFamily: latex
+topicFamilyConfidence: 1
+topicFamilyNotes: >-
+  The post focuses on a LaTeX modular resume template with build automation and deployment, directly
+  matching the 'latex' family description and example slugs, including 'github-good-resume'. The
+  content emphasizes LaTeX document preparation along with automated build and deployment, aligning
+  perfectly with this family.
 ---
 
 # good-resume: Technical Documentation and Implementation Notes
@@ -70,4 +77,5 @@ The presence of a `deployz` directory and a configuration class in the Python sc
 ## Summary
 
 This repository exemplifies a pragmatic approach to resume management for technical professionals. By combining LaTeX's formatting capabilities with modular content organization and build automation, it provides a maintainable and scalable solution for resume creation and deployment.
+
 
