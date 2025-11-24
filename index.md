@@ -1,12 +1,26 @@
 ---
-slug: "github-good-resume"
-title: "good-resume"
-repo: "justin-napolitano/good-resume"
-githubUrl: "https://github.com/justin-napolitano/good-resume"
-generatedAt: "2025-11-23T09:03:25.250316Z"
-source: "github-auto"
+slug: github-good-resume
+title: Modular LaTeX Resume Template with Automated Build and Deployment
+repo: justin-napolitano/good-resume
+githubUrl: https://github.com/justin-napolitano/good-resume
+generatedAt: '2025-11-23T09:03:25.250316Z'
+source: github-auto
+summary: >-
+  Documentation and implementation notes for a LaTeX-based modular resume template featuring build
+  automation and deployment for technical professionals.
+tags:
+  - latex
+  - resume-template
+  - build-automation
+  - python
+  - makefile
+seoPrimaryKeyword: latex resume template
+seoSecondaryKeywords:
+  - build automation
+  - modular design
+  - resume deployment
+seoOptimized: true
 ---
-
 
 # good-resume: Technical Documentation and Implementation Notes
 
@@ -56,3 +70,4 @@ The presence of a `deployz` directory and a configuration class in the Python sc
 ## Summary
 
 This repository exemplifies a pragmatic approach to resume management for technical professionals. By combining LaTeX's formatting capabilities with modular content organization and build automation, it provides a maintainable and scalable solution for resume creation and deployment.
+
