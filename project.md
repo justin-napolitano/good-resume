@@ -7,8 +7,8 @@ githubUrl: https://github.com/justin-napolitano/good-resume
 generatedAt: '2025-11-24T21:34:59.630Z'
 source: github-auto
 summary: >-
-  A customizable LaTeX resume template with a build pipeline for generating
-  professional PDFs, tailored for data science and technical positions.
+  A customizable LaTeX resume template with a build pipeline for generating professional PDFs,
+  tailored for data science and technical positions.
 tags:
   - latex
   - python
@@ -24,8 +24,8 @@ seoSecondaryKeywords:
   - data science resume
   - technical resume template
 seoOptimized: true
-topicFamily: null
-topicFamilyConfidence: null
+topicFamily: latex
+topicFamilyConfidence: 0.9
 kind: project
 entryLayout: project
 showInProjects: true
@@ -116,4 +116,5 @@ A LaTeX-based resume template designed for data science and technical roles. Thi
 - Integrate CI/CD pipeline for automatic PDF generation on commits
 - Expand deployment scripts for hosting updated resumes online
 - Include sample data and examples for faster onboarding
+
 
