@@ -1,32 +1,41 @@
 ---
 slug: github-good-resume
-title: Modular LaTeX Resume Template with Automated Build and Deployment
+title: 'Good Resume: LaTeX Template for Technical Professionals'
 repo: justin-napolitano/good-resume
 githubUrl: https://github.com/justin-napolitano/good-resume
 generatedAt: '2025-11-23T09:03:25.250316Z'
 source: github-auto
 summary: >-
-  Documentation and implementation notes for a LaTeX-based modular resume template featuring build
-  automation and deployment for technical professionals.
+  Explore a modular LaTeX resume template designed for data science and
+  technical roles, featuring automation and easy updates.
 tags:
   - latex
   - resume-template
   - build-automation
   - python
   - makefile
-seoPrimaryKeyword: latex resume template
-seoSecondaryKeywords:
+  - resume template
   - build automation
   - modular design
-  - resume deployment
+  - continuous delivery
+seoPrimaryKeyword: latex resume template
+seoSecondaryKeywords:
+  - resume automation
+  - technical resume design
+  - modular resume structure
+  - python build script
+  - deploying resumes online
 seoOptimized: true
 topicFamily: latex
 topicFamilyConfidence: 1
 topicFamilyNotes: >-
-  The post focuses on a LaTeX modular resume template with build automation and deployment, directly
-  matching the 'latex' family description and example slugs, including 'github-good-resume'. The
-  content emphasizes LaTeX document preparation along with automated build and deployment, aligning
-  perfectly with this family.
+  The post focuses on a LaTeX modular resume template with build automation and
+  deployment, directly matching the 'latex' family description and example
+  slugs, including 'github-good-resume'. The content emphasizes LaTeX document
+  preparation along with automated build and deployment, aligning perfectly with
+  this family.
+kind: project
+id: github-good-resume
 ---
 
 # good-resume: Technical Documentation and Implementation Notes
